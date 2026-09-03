@@ -1,0 +1,44 @@
+[
+  {
+    "Id": "agent-ambiguous-001",
+    "SellerName": "AgentTestStore",
+    "Name": "Camera Canon EOS R6 Mirrorless",
+    "Brand": "Canon",
+    "Category": "Photography"
+  },
+  {
+    "Id": "agent-ambiguous-002",
+    "SellerName": "AgentTestStore",
+    "Name": "iPhone 15 Pro Apple",
+    "Brand": "Apple",
+    "Category": "Electronics"
+  },
+  {
+    "Id": "agent-ambiguous-003",
+    "SellerName": "AgentTestStore",
+    "Name": "Camera Canon EOS R6 Mark II",
+    "Brand": "Canon",
+    "Category": "Photography"
+  },
+  {
+    "Id": "agent-ambiguous-004",
+    "SellerName": "AgentTestStore",
+    "Name": "Smartphone Galaxy S23 Ultra",
+    "Brand": "Samsung",
+    "Category": "Electronics"
+  },
+  {
+    "Id": "agent-ambiguous-005",
+    "SellerName": "AgentTestStore",
+    "Name": "MacBook Air M2 15 inch",
+    "Brand": "Apple",
+    "Category": "Computers"
+  },
+  {
+    "Id": "agent-ambiguous-006",
+    "SellerName": "AgentTestStore",
+    "Name": "Headphones Sony WH-1000XM5 Wireless",
+    "Brand": "Sony",
+    "Category": "Audio"
+  }
+]

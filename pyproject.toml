@@ -1,0 +1,34 @@
+[project]
+name = "catalog-consolidator"
+version = "0.1.0"
+description = "CLI to consolidate marketplace catalogs with LangChain agents."
+requires-python = ">=3.11"
+dependencies = [
+  "langchain==1.3.18",
+  "langchain-openai==1.6.0",
+  "langfuse>=4,<5",
+  "pydantic>=2.7.4,<3",
+  "python-dotenv>=1,<2",
+]
+
+[dependency-groups]
+dev = [
+  "pytest>=9.0.3,<10",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+catalog-consolidate = "catalog_consolidator.cli:main"
+catalog-langfuse-bootstrap = "catalog_consolidator.langfuse_bootstrap:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
